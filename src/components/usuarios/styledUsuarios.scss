@@ -1,0 +1,78 @@
+@import "../../style/mixin.scss";
+
+.main {
+  display: flex;
+  position: relative;
+  top: -30px;
+  left: 800px;
+  gap: 10px;
+  &__empresa {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $white;
+    border-radius: 50%;
+    width: 100px;
+    height: 90px;
+    border: 3px solid $skyBkue;
+    h1 {
+      width: 60px;
+      font-size: 14px;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    }
+    img {
+      width: 25px;
+    }
+  }
+  &__talentos {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $white;
+    border-radius: 50%;
+    width: 100px;
+    height: 90px;
+    border: 3px solid $skyBkue;
+    h1 {
+      width: 60px;
+      font-size: 14px;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    }
+    img {
+      width: 25px;
+    }
+  }
+  &__administrador {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $white;
+    border-radius: 50%;
+    width: 100px;
+    height: 90px;
+    border: 3px solid $skyBkue;
+    h1 {
+      width: 60px;
+      font-size: 10px;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    }
+    img {
+      width: 25px;
+    }
+  }
+}
